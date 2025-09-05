@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Portfolio - Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="San_Francisco_State_Gators_logo.svg.png" alt="GatorsLink Logo" class="logo-img">
+                <h2>GatorsLink</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#team" class="nav-link">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-logo">
+                    <img src="San_Francisco_State_Gators_logo.svg.png" alt="GatorsLink Logo" class="hero-logo-img">
+                </div>
+                <h1 class="hero-title">GatorsLink</h1>
+                <p class="hero-subtitle">Connecting students through peer tutoring and academic collaboration</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('team')">
+                        <i class="fas fa-users"></i> Meet the Team
+                    </button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('gallery')">
+                        <i class="fas fa-images"></i> View Gallery
+                    </button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-cards">
+                    <div class="card card-1">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Peer Tutoring</span>
+                    </div>
+                    <div class="card card-2">
+                        <i class="fas fa-comments"></i>
+                        <span>Academic Forum</span>
+                    </div>
+                    <div class="card card-3">
+                        <i class="fas fa-university"></i>
+                        <span>Campus Integration</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Project Overview -->
+    <section class="overview">
+        <div class="container">
+            <div class="section-header">
+                <h2>GatorsLink Overview</h2>
+                <p>Revolutionizing student collaboration through peer tutoring and academic forums</p>
+            </div>
+            <div class="overview-grid">
+                <div class="overview-card">
+                    <div class="card-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Peer Tutoring</h3>
+                    <p>Students can sign up to tutor each other, creating a supportive learning community where knowledge is shared freely</p>
+                </div>
+                <div class="overview-card">
+                    <div class="card-icon">
+                        <i class="fas fa-question-circle"></i>
+                    </div>
+                    <h3>Academic Forum</h3>
+                    <p>Post questions for any class in a forum-style format, organized by course levels and subjects for easy navigation</p>
+                </div>
+                <div class="overview-card">
+                    <div class="card-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Campus Integration</h3>
+                    <p>Schedule in-person meetings at designated campus buildings and library locations for face-to-face collaboration</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <div class="section-header">
+                <h2>Meet Our Team</h2>
+                <p>The talented individuals behind our success</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="Sebastian.jpeg" alt="Sebastian Cervantez">
+                        <div class="member-overlay">
+                            <div class="social-links">
+                                <a href="mailto:sebastiane.cervantez@gmail.com"><i class="fas fa-envelope"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Sebastian Cervantez</h3>
+                    <p class="member-role">Team Lead - Website/Application Design</p>
+                    <p class="member-bio">Leading the team with expertise in website and application design, ensuring cohesive user experiences and technical excellence.</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=300&h=300&fit=crop&crop=face" alt="Qilan Lao">
+                        <div class="member-overlay">
+                            <div class="social-links">
+                                <a href="mailto:qilao34@gmail.com"><i class="fas fa-envelope"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Qilan Lao</h3>
+                    <p class="member-role">Feature Design & Testing</p>
+                    <p class="member-bio">Specializing in feature design and comprehensive testing to ensure robust functionality and optimal user experience.</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face" alt="Mona Menghani">
+                        <div class="member-overlay">
+                            <div class="social-links">
+                                <a href="mailto:menghanimona@gmail.com"><i class="fas fa-envelope"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Mona Menghani</h3>
+                    <p class="member-role">Documentation, Research & Testing</p>
+                    <p class="member-bio">Dedicated to thorough documentation, comprehensive research, and rigorous testing to maintain project quality and knowledge transfer.</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face" alt="Sintia Plasencia">
+                        <div class="member-overlay">
+                            <div class="social-links">
+                                <a href="mailto:sintiadasz@gmail.com"><i class="fas fa-envelope"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Sintia Plasencia</h3>
+                    <p class="member-role">Frontend/UI Design</p>
+                    <p class="member-bio">Expert in frontend development and UI design, creating intuitive and visually appealing user interfaces that enhance user engagement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2>GatorsLink Gallery</h2>
+                <p>Visual showcase of our peer tutoring platform development</p>
+            </div>
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="design">UI/UX Design</button>
+                <button class="filter-btn" data-filter="development">Development</button>
+                <button class="filter-btn" data-filter="prototype">Prototypes</button>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="design">
+                    <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?w=400&h=300&fit=crop" alt="GatorsLink UI Design">
+                    <div class="gallery-overlay">
+                        <h3>GatorsLink UI Design</h3>
+                        <p>Modern interface design for the peer tutoring platform</p>
+                        <button class="btn btn-small">View Details</button>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="development">
+                    <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=300&fit=crop" alt="Forum System">
+                    <div class="gallery-overlay">
+                        <h3>Academic Forum System</h3>
+                        <p>Course-based question and answer forum functionality</p>
+                        <button class="btn btn-small">View Details</button>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="prototype">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop" alt="Tutoring Matching">
+                    <div class="gallery-overlay">
+                        <h3>Tutoring Matching System</h3>
+                        <p>Algorithm for connecting students with peer tutors</p>
+                        <button class="btn btn-small">View Details</button>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="design">
+                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=400&h=300&fit=crop" alt="Campus Integration">
+                    <div class="gallery-overlay">
+                        <h3>Campus Integration Design</h3>
+                        <p>Location-based meeting scheduling interface</p>
+                        <button class="btn btn-small">View Details</button>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="development">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop" alt="User Dashboard">
+                    <div class="gallery-overlay">
+                        <h3>Student Dashboard</h3>
+                        <p>Personalized dashboard for managing tutoring sessions</p>
+                        <button class="btn btn-small">View Details</button>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="prototype">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop" alt="Mobile App">
+                    <div class="gallery-overlay">
+                        <h3>Mobile App Prototype</h3>
+                        <p>Mobile interface for on-the-go tutoring connections</p>
+                        <button class="btn btn-small">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="San_Francisco_State_Gators_logo.svg.png" alt="GatorsLink Logo" class="footer-logo-img">
+                        <h3>GatorsLink</h3>
+                    </div>
+                    <p>Connecting students through peer tutoring and academic collaboration.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-envelope"></i> sebastiane.cervantez@gmail.com</p>
+                    <p><i class="fas fa-users"></i> Team Lead: Sebastian Cervantez</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Project Portfolio Team</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Project Portfolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
