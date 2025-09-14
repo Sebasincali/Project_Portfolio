@@ -24,7 +24,7 @@
                     <a href="#team" class="nav-link">Team</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#gallery" class="nav-link">Gallery</a>
+                    <a href="#research" class="nav-link">Research</a>
                 </li>
             </ul>
             <div class="hamburger">
@@ -48,8 +48,8 @@
                     <button class="btn btn-primary" onclick="scrollToSection('team')">
                         <i class="fas fa-users"></i> Meet the Team
                     </button>
-                    <button class="btn btn-secondary" onclick="scrollToSection('gallery')">
-                        <i class="fas fa-images"></i> View Gallery
+                    <button class="btn btn-secondary" onclick="scrollToSection('research')">
+                        <i class="fas fa-chart-bar"></i> View Research
                     </button>
                 </div>
             </div>
@@ -162,92 +162,265 @@
                     <p class="member-role">Documentation, Research & Testing</p>
                     <p class="member-bio">Dedicated to thorough documentation, comprehensive research, and rigorous testing to maintain project quality and knowledge transfer.</p>
                 </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="sintia.jpeg" alt="Sintia Plasencia">
+                        <div class="member-overlay">
+                            <div class="social-links">
+                                <a href="mailto:sintia.plasencia@example.com"><i class="fas fa-envelope"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Sintia Plasencia</h3>
+                    <p class="member-role">Frontend/UI Design</p>
+                    <p class="member-bio">Expert in frontend development and UI design, creating intuitive and visually appealing user interfaces that enhance user engagement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-            <div class="team-member">
-                <div class="member-photo">
-                    <img src="sintia.jpeg" alt="Sintia Plasencia">
-                    <div class="member-overlay">
-                        <div class="social-links">
-                            <a href="mailto:menghanimona@gmail.com"><i class="fas fa-envelope"></i></a>
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fab fa-github"></i></a>
+    <!-- Research Section -->
+    <section id="research" class="research">
+        <div class="container">
+            <div class="section-header">
+                <h2>User Research Insights</h2>
+                <p>Understanding student needs through comprehensive user interviews and surveys</p>
+            </div>
+            
+            <!-- Research Overview -->
+            <div class="research-overview">
+                <div class="overview-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">7</div>
+                        <div class="stat-label">Interviews Conducted</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Consent Rate</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">42.9%</div>
+                        <div class="stat-label">Most Likely to Use Platform</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">71.4%</div>
+                        <div class="stat-label">First-Generation Students</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Key Findings -->
+            <div class="research-findings">
+                <h3>Key Research Findings</h3>
+                <div class="findings-grid">
+                    <div class="finding-card">
+                        <div class="finding-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h4>Student Demographics</h4>
+                        <p><strong>57.1%</strong> are Seniors, <strong>28.6%</strong> are Juniors</p>
+                        <p><strong>42.9%</strong> major in Computer Science</p>
+                        <p><strong>71.4%</strong> are first-generation college students</p>
+                    </div>
+                    
+                    <div class="finding-card">
+                        <div class="finding-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h4>Platform Interest</h4>
+                        <p><strong>100%</strong> of students would use an online tutoring platform</p>
+                        <p><strong>42.9%</strong> most likely to use vs TASC</p>
+                        <p><strong>57.1%</strong> likely to use vs TASC</p>
+                    </div>
+                    
+                    <div class="finding-card">
+                        <div class="finding-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h4>Tutor Interest</h4>
+                        <p><strong>28.6%</strong> most likely to become tutors</p>
+                        <p><strong>57.1%</strong> likely to become tutors</p>
+                        <p>Key incentives: Payment, research opportunities, early enrollment</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Detailed Survey Results -->
+            <div class="survey-results">
+                <h3>Detailed Survey Analysis</h3>
+                
+                <!-- Question 1: Role Distribution -->
+                <div class="survey-question">
+                    <h4>What role best describes you?</h4>
+                    <div class="chart-container">
+                        <div class="chart-bar">
+                            <div class="bar-label">Senior</div>
+                            <div class="bar-fill" style="width: 57.1%">
+                                <span class="bar-value">57.1% (4)</span>
+                            </div>
+                        </div>
+                        <div class="chart-bar">
+                            <div class="bar-label">Junior</div>
+                            <div class="bar-fill" style="width: 28.6%">
+                                <span class="bar-value">28.6% (2)</span>
+                            </div>
+                        </div>
+                        <div class="chart-bar">
+                            <div class="bar-label">Former Student</div>
+                            <div class="bar-fill" style="width: 14.3%">
+                                <span class="bar-value">14.3% (1)</span>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <h3>Sintia Plasencia</h3>
-                <p class="member-role">Frontend/UI Design</p>
-                <p class="member-bio">Expert in frontend development and UI design, creating intuitive and visually appealing user interfaces that enhance user engagement.</p>
+
+                <!-- Question 2: Major Distribution -->
+                <div class="survey-question">
+                    <h4>What is your major?</h4>
+                    <div class="chart-container">
+                        <div class="chart-bar">
+                            <div class="bar-label">Computer Science</div>
+                            <div class="bar-fill" style="width: 42.9%">
+                                <span class="bar-value">42.9% (3)</span>
+                            </div>
+                        </div>
+                        <div class="chart-bar">
+                            <div class="bar-label">Business Administration</div>
+                            <div class="bar-fill" style="width: 14.3%">
+                                <span class="bar-value">14.3% (1)</span>
+                            </div>
+                        </div>
+                        <div class="chart-bar">
+                            <div class="bar-label">Industrial Design</div>
+                            <div class="bar-fill" style="width: 14.3%">
+                                <span class="bar-value">14.3% (1)</span>
+                            </div>
+                        </div>
+                        <div class="chart-bar">
+                            <div class="bar-label">Sociology</div>
+                            <div class="bar-fill" style="width: 14.3%">
+                                <span class="bar-value">14.3% (1)</span>
+                            </div>
+                        </div>
+                        <div class="chart-bar">
+                            <div class="bar-label">Other</div>
+                            <div class="bar-fill" style="width: 14.3%">
+                                <span class="bar-value">14.3% (1)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Question 3: Platform Usage Likelihood -->
+                <div class="survey-question">
+                    <h4>How likely would you use this platform compared to TASC?</h4>
+                    <div class="chart-container">
+                        <div class="chart-bar">
+                            <div class="bar-label">Most Likely</div>
+                            <div class="bar-fill" style="width: 42.9%">
+                                <span class="bar-value">42.9% (4)</span>
+                            </div>
+                        </div>
+                        <div class="chart-bar">
+                            <div class="bar-label">Likely</div>
+                            <div class="bar-fill" style="width: 57.1%">
+                                <span class="bar-value">57.1% (3)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Question 4: Tutor Interest -->
+                <div class="survey-question">
+                    <h4>How likely would you be to apply for a tutor role?</h4>
+                    <div class="chart-container">
+                        <div class="chart-bar">
+                            <div class="bar-label">Most Likely</div>
+                            <div class="bar-fill" style="width: 14.3%">
+                                <span class="bar-value">14.3% (1)</span>
+                            </div>
+                        </div>
+                        <div class="chart-bar">
+                            <div class="bar-label">Likely</div>
+                            <div class="bar-fill" style="width: 57.1%">
+                                <span class="bar-value">57.1% (4)</span>
+                            </div>
+                        </div>
+                        <div class="chart-bar">
+                            <div class="bar-label">Neutral</div>
+                            <div class="bar-fill" style="width: 14.3%">
+                                <span class="bar-value">14.3% (1)</span>
+                            </div>
+                        </div>
+                        <div class="chart-bar">
+                            <div class="bar-label">Most Unlikely</div>
+                            <div class="bar-fill" style="width: 14.3%">
+                                <span class="bar-value">14.3% (1)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+            <!-- Key Insights -->
+            <div class="insights-section">
+                <h3>Key Insights & Recommendations</h3>
+                <div class="insights-grid">
+                    <div class="insight-card">
+                        <h4>🎯 Target Audience</h4>
+                        <p>Focus on upperclassmen (Juniors & Seniors) and Computer Science majors who show the highest engagement and need for tutoring services.</p>
+                    </div>
+                    
+                    <div class="insight-card">
+                        <h4>💰 Incentive Structure</h4>
+                        <p>Students are most motivated by payment, research opportunities, and early enrollment benefits when considering tutor roles.</p>
+                    </div>
+                    
+                    <div class="insight-card">
+                        <h4>⏰ Accessibility</h4>
+                        <p>Students need flexible scheduling options and quick access to avoid the "weeks to get one session" problem with current services.</p>
+                    </div>
+                    
+                    <div class="insight-card">
+                        <h4>🎓 First-Generation Support</h4>
+                        <p>With 71.4% being first-generation students, the platform should include additional guidance and support features.</p>
+                    </div>
+                    
+                    <div class="insight-card">
+                        <h4>📱 Platform Features</h4>
+                        <p>Students want video demonstrations, group chats, specific help categories, photo attachments, and study groups.</p>
+                    </div>
+                    
+                    <div class="insight-card">
+                        <h4>🔍 Quality Assurance</h4>
+                        <p>Ensure tutors have taken the specific courses at SFSU and are knowledgeable in their subject areas to build trust.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- User Quotes -->
+            <div class="quotes-section">
+                <h3>Student Feedback</h3>
+                <div class="quotes-grid">
+                    <div class="quote-card">
+                        <p>"This would be incredibly helpful! Also would be great for students who are tight on time"</p>
+                        <span class="quote-author">- Anonymous Student</span>
+                    </div>
+                    <div class="quote-card">
+                        <p>"I think it's helpful when the tutor has taken the class before at SFSU"</p>
+                        <span class="quote-author">- Anonymous Student</span>
+                    </div>
+                    <div class="quote-card">
+                        <p>"Usually it takes weeks to get even one session. That usually gets me discouraged to even think about getting tutoring"</p>
+                        <span class="quote-author">- Anonymous Student</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-
-    <!-- Gallery Section -->
-    <section id="gallery" class="gallery">
-        <div class="container">
-            <div class="section-header">
-                <h2>GatorsLink Gallery</h2>
-                <p>Visual showcase of our peer tutoring platform development</p>
-            </div>
-            <div class="gallery-filters">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="design">UI/UX Design</button>
-                <button class="filter-btn" data-filter="development">Development</button>
-                <button class="filter-btn" data-filter="prototype">Prototypes</button>
-            </div>
-            <div class="gallery-grid">
-                <div class="gallery-item" data-category="design">
-                    <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?w=400&h=300&fit=crop" alt="GatorsLink UI Design">
-                    <div class="gallery-overlay">
-                        <h3>GatorsLink UI Design</h3>
-                        <p>Modern interface design for the peer tutoring platform</p>
-                        <button class="btn btn-small">View Details</button>
-                    </div>
-                </div>
-                <div class="gallery-item" data-category="development">
-                    <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=300&fit=crop" alt="Forum System">
-                    <div class="gallery-overlay">
-                        <h3>Academic Forum System</h3>
-                        <p>Course-based question and answer forum functionality</p>
-                        <button class="btn btn-small">View Details</button>
-                    </div>
-                </div>
-                <div class="gallery-item" data-category="prototype">
-                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop" alt="Tutoring Matching">
-                    <div class="gallery-overlay">
-                        <h3>Tutoring Matching System</h3>
-                        <p>Algorithm for connecting students with peer tutors</p>
-                        <button class="btn btn-small">View Details</button>
-                    </div>
-                </div>
-                <div class="gallery-item" data-category="design">
-                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=400&h=300&fit=crop" alt="Campus Integration">
-                    <div class="gallery-overlay">
-                        <h3>Campus Integration Design</h3>
-                        <p>Location-based meeting scheduling interface</p>
-                        <button class="btn btn-small">View Details</button>
-                    </div>
-                </div>
-                <div class="gallery-item" data-category="development">
-                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop" alt="User Dashboard">
-                    <div class="gallery-overlay">
-                        <h3>Student Dashboard</h3>
-                        <p>Personalized dashboard for managing tutoring sessions</p>
-                        <button class="btn btn-small">View Details</button>
-                    </div>
-                </div>
-                <div class="gallery-item" data-category="prototype">
-                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop" alt="Mobile App">
-                    <div class="gallery-overlay">
-                        <h3>Mobile App Prototype</h3>
-                        <p>Mobile interface for on-the-go tutoring connections</p>
-                        <button class="btn btn-small">View Details</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Footer -->
     <footer class="footer">
@@ -271,7 +444,7 @@
                     <ul>
                         <li><a href="#home">Home</a></li>
                         <li><a href="#team">Team</a></li>
-                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#research">Research</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
