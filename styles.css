@@ -628,6 +628,92 @@ body {
     margin-top: 1rem;
 }
 
+/* Detailed Research Findings */
+.research-details {
+    margin-top: 4rem;
+}
+
+.research-section {
+    margin-bottom: 3rem;
+}
+
+.research-section h3 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: #1f2937;
+    text-align: center;
+}
+
+.findings-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.finding-item {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e5e7eb;
+}
+
+.finding-item h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #6366f1;
+}
+
+.finding-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.finding-item li {
+    padding: 0.5rem 0;
+    color: #6b7280;
+    border-bottom: 1px solid #f3f4f6;
+}
+
+.finding-item li:last-child {
+    border-bottom: none;
+}
+
+.insights-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.insight-card {
+    background: linear-gradient(135deg, #f8faff 0%, #f0f4ff 100%);
+    padding: 1.5rem;
+    border-radius: 12px;
+    border-left: 4px solid #6366f1;
+    transition: all 0.3s ease;
+}
+
+.insight-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(99, 102, 241, 0.15);
+}
+
+.insight-card h4 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: #1f2937;
+}
+
+.insight-card p {
+    color: #6b7280;
+    line-height: 1.6;
+    margin: 0;
+}
+
 /* Proposal Section */
 .proposal {
     padding: 6rem 0;
@@ -964,6 +1050,14 @@ body {
         gap: 1.5rem;
     }
 
+    .findings-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .insights-grid {
+        grid-template-columns: 1fr;
+    }
+
     .hero-buttons {
         justify-content: center;
     }
@@ -1012,6 +1106,15 @@ body {
 
     .stat-number {
         font-size: 2.5rem;
+    }
+
+    .finding-item,
+    .insight-card {
+        padding: 1.25rem;
+    }
+
+    .research-section h3 {
+        font-size: 1.5rem;
     }
 }
 
